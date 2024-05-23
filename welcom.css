@@ -6,8 +6,6 @@ body, html {
     font-family: 'EB Garamond', serif;
 }
 
-
-
 .background-wrapper {
     position: fixed;
     top: 0;
@@ -20,6 +18,7 @@ body, html {
     background-position: center;
     filter: blur(10px);
 }
+
 .container {
     background-size: cover;
     background-position: center;
@@ -48,7 +47,6 @@ body, html {
 }
 
 .content {
-    margin-bottom: 220px;
     display: flex;
     align-items: center;
     margin-top: 0px;
@@ -85,6 +83,71 @@ body, html {
     background-color: #90b4d8;
 }
 
+.sponsors {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.sponsors-heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.sponsors-images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.sponsor-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.footer {
+   
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-item {
+    flex: 1;
+    max-width: 300px;
+    margin: 0 20px;
+}
+
+.footer-item h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-item p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
+}
+
+.qr-code img {
+    max-width: 80%;
+    height: auto;
+}
 /* Media Queries for responsiveness */
 @media (max-width: 1024px) {
     .header {
@@ -103,9 +166,9 @@ body, html {
     }
 
     .description {
-        margin-left: 0;
+        margin-left: 25px;
         font-size: 20px;
-        text-align: center; /* Center text for better mobile display */
+        text-align: center;
     }
 
     .explore-btn {
@@ -120,12 +183,20 @@ body, html {
 
     .description {
         font-size: 15px;
-        margin-left: 0;
-        text-align: center; /* Center text for better mobile display */
+        margin-left: 50px;
+        text-align: center;
     }
 
     .explore-btn {
         margin-left: 0;
+    }
+
+    .sponsors-heading {
+        font-size: 25px;
+    }
+
+    .sponsor-image {
+        width: 150px;
     }
 }
 
@@ -142,19 +213,29 @@ body, html {
     .content {
         flex-direction: column;
         align-items: center;
-        margin-left: 0; /* Ensure content is centered */
-        margin-right: 0; /* Ensure content is centered */
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .description {
         font-size: 14px;
-        margin-left: 0;
-        text-align: center; /* Center text for better mobile display */
+        margin-left: 25px;
+        text-align: center;
     }
 
     .explore-btn {
         font-size: 18px;
         padding: 8px 16px;
-        margin-left: 0; /* Ensure button is centered */
+        margin-left: 0;
+    }
+
+    .sponsors-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sponsor-image {
+        width: 100%;
+        max-width: 300px;
     }
 }
