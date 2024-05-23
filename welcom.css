@@ -106,48 +106,6 @@ body, html {
 }
 
 
-.footer {
-   
-    color: #fff;
-    padding: 40px 0;
-    text-align: center;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
-
-.footer-item {
-    flex: 1;
-    max-width: 300px;
-    margin: 0 20px;
-}
-
-.footer-item h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.footer-item p {
-    font-size: 18px;
-    margin-bottom: 10px;
-}
-
-.footer-item a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.footer-item a:hover {
-    text-decoration: underline;
-}
-
-.qr-code img {
-    max-width: 80%;
-    height: auto;
-}
 /* Media Queries for responsiveness */
 @media (max-width: 1024px) {
     .header {
