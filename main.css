@@ -145,4 +145,37 @@ body {
     .card {
         width: calc(100% - 40px);
     }
+    .heading2 {
+        font-size: 30px;
+    }
+
+    .text {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .desc {
+        font-size: 20px;
+    }
+
+    .card-content h3 {
+        font-size: 24px;
+    }
+
+    .card-content p {
+        font-size: 16px;
+    }
+
+    .card-content .btn {
+        font-size: 16px;
+    }
+
+    .footer-item h3 {
+        font-size: 20px;
+    }
+
+    .footer-item p {
+        font-size: 16px;
+    }
 }
+
