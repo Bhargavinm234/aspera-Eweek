@@ -85,7 +85,7 @@ body, html {
 
 .sponsors {
     text-align: center;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .sponsors-heading {
@@ -105,7 +105,6 @@ body, html {
     border-radius: 10px;
 }
 
-
 /* Media Queries for responsiveness */
 @media (max-width: 1024px) {
     .header {
@@ -124,13 +123,18 @@ body, html {
     }
 
     .description {
-        margin-left: 25px;
+        margin-left: 0;
         font-size: 20px;
         text-align: center;
+        width: auto;
     }
 
     .explore-btn {
         margin-left: 0;
+    }
+
+    .sponsors-images {
+        gap: 20px;
     }
 }
 
@@ -140,9 +144,10 @@ body, html {
     }
 
     .description {
-        font-size: 15px;
-        margin-left: 50px;
+        font-size: 18px;
+        margin-left: 0;
         text-align: center;
+        width: auto;
     }
 
     .explore-btn {
@@ -150,7 +155,7 @@ body, html {
     }
 
     .sponsors-heading {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     .sponsor-image {
@@ -176,13 +181,15 @@ body, html {
     }
 
     .description {
-        font-size: 14px;
-        margin-left: 25px;
+        font-size: 16px;
+        margin-left: 0;
         text-align: center;
+        width: auto;
+        padding: 0 10px;
     }
 
     .explore-btn {
-        font-size: 18px;
+        font-size: 16px;
         padding: 8px 16px;
         margin-left: 0;
     }
@@ -190,10 +197,11 @@ body, html {
     .sponsors-images {
         flex-direction: column;
         align-items: center;
+        gap: 20px;
     }
 
     .sponsor-image {
         width: 100%;
-        max-width: 300px;
+        max-width: 200px;
     }
 }
